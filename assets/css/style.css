@@ -1,0 +1,20 @@
+#emailImg {
+    width: 25%;
+}
+
+#email, #name {
+    width: 400px;
+}
+
+#contactPic {
+    width: 50%;
+    height: 1000px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

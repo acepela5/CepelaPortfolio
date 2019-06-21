@@ -7,28 +7,68 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact</title>
 
+        <link rel="stylesheet" href="./assets/css/style.css">
+
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Add Icons from Materialize -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
 
     <body>
 
         <div class="parallax-container">
-            <div class="parallax"><img src="./assets/images/9449c551dfd05d5a343c6b901d7a5522.jpg"></div>
+            <div class="parallax"><img id="emailImg" src="./assets/images/email.jpg"></div>
         </div>
-        <div class="section white">
+        <div class="section red lighten-4">
             <div class="row container">
-                <h2 class="header">Parallax</h2>
-                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
-                    in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                <h2 class="header">Contact</h2>
+                <p class="grey-text text-darken-3 lighten-3">
+
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="name" class="materialize-textarea "></textarea>
+                                <label for="name" class="grey-text text-darken-3 lighten-3">Enter Name</label>
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="email" class="materialize-textarea"></textarea>
+                                <label for="email" class="grey-text text-darken-3 lighten-3">Enter Email</label>
+                            </div>
+                        </div>
+                    </form>
+
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message" class="grey-text text-darken-3 lighten-3">Message</label>
+                            </div>
+                        </div>
+                    </form>
+
+                    <button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                          </button>
             </div>
+
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="./assets/images/f7dd69ffb12f8533825501ca6a1df514.jpg"></div>
+            <div class="parallax"><img id="contactPic" src="./assets/images/contact.jpg"></div>
         </div>
+
+        <div class="footer">&copy;Adriana R. Cepela 2019</div>
 
         <!-- jquery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
