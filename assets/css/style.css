@@ -19,8 +19,11 @@
     justify-content: center;
 }
 
-nav {
+.sidenav-trigger {
     position: absolute;
     z-index: 4;
+
 }
+
+
 
