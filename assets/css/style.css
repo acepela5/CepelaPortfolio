@@ -1,19 +1,14 @@
-#navbtn {
-    position: absolute;
-    z-index: 3;
-}
-
 #email, #name {
     width: 400px;
 }
 
 #emailImg, #contactPic {
     width: 20%;
-    height: 1000px;
+    height: 800px;
 }
 
 .footer {
-    height: 100px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,9 +16,8 @@
 
 .sidenav-trigger {
     position: absolute;
-    z-index: 4;
+    z-index: 7;
     left: 25px;
-    top: 25px;
 }
 
 #profile {
@@ -43,5 +37,22 @@
 #github {
     height: 30px;
 }
+
+.parallax {
+    min-height: 100px;
+}
+
+#aboutPic1 {
+    width: 25px;
+    height: 800px;
+}
+
+#codePic {
+    width: 25px;
+    height: 800px;
+}
+
+
+
 
 

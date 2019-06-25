@@ -5,30 +5,97 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>About Adi</title>
+        <title>About</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Add Icons from Materialize -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
     <body>
 
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img id="bckground" src="./assets/images/9449c551dfd05d5a343c6b901d7a5522.jpg">
+                    </div>
+                    <a href="#user"><img class="circle" id="profile" src="./assets/images/IMAG1105.jpg"></a>
+                    <a href="#name"><span class="grey-text text-darken-3 name">Adriana (Adi) Cepela</span></a>
+                    <a href="#email"><span class="grey-text text-darken-3 email">galan1451@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a class="waves-effect" href="./index.html"><i class="material-icons">home</i>Home</a></li>
+            <li><a class="waves-effect" href="./about.html"><i class="material-icons">account_circle</i>About</a></li>
+            <li><a class="waves-effect" href="./portfolio.html"><i class="material-icons">palette</i>Portfolio</a></li>
+            <li><a class="waves-effect" href="./contact.html"><i class="material-icons">mail</i>Contact</a></li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="waves-effect" href="https://www.linkedin.com/in/adriana-cepela-8a8463b0/"><img id="linkdin"
+                        src="./assets/images/linkedin.jpg">LinkdIn</a></li>
+            <li><a class="waves-effect" href="https://github.com/acepela5"><img id="github"
+                        src="./assets/images/GitHub.png">GitHub</a></li>
+
+        </ul>
+
+        <a href="#" data-target="slide-out"
+            class="sidenav-trigger blue-grey darken-4 btn-floating btn-large show-on-large"><i
+                class="material-icons">menu</i></a>
+
         <div class="parallax-container">
-            <div class="parallax"><img src="./assets/images/9449c551dfd05d5a343c6b901d7a5522.jpg"></div>
+            <div class="parallax"><img id="aboutPic1" src="./assets/images/musicnotes.jpg"></div>
         </div>
         <div class="section white">
             <div class="row container">
-                <h2 class="header">Parallax</h2>
-                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
-                    in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                <h2 class="header">About Adi</h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                            <img class="materialboxed" width="200" src="./assets/images/family pic.jpg">
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="grey-text text-darken-3 lighten-3">Hello all, my name is Adi Cepela. I am a graduate
+                            of VanderCook College of Music with my Bachelor's
+                            Degree in Music Education.
+                            In school we learned how to teach and play 21 instruments while honing skills on our
+                            primary; for me,
+                            that was the violin.
+                            These four years since graduating have been spent teaching middle school orchestra to
+                            diverse
+                            communities of students.
+                        </p>
+                        <p>When I am not teaching I love to exercise, eat, and bake lots of goodies. In my free time I
+                            still enjoy
+                            performing with the Lakeview Orchestra and playing weddings with other muscian friends.
+                            My husband, Paul, and I have two cats with lots of personality, Mahler and Elgar. Both are
+                            named after
+                            composers we enjoy listening to. If you haven't heard of either, you should look up Gustav
+                            Mahler's
+                            Symphony No. 5 and Edward Elgar's Cello Concerto.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="./assets/images/f7dd69ffb12f8533825501ca6a1df514.jpg"></div>
+            <div class="parallax"><img id="aboutPic1" src="./assets/images/musicnotes.jpg"></div>
         </div>
+
+        <div class="footer">&copy;Adriana R. Cepela 2019</div>
+
 
         <!-- jquery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
