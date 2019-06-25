@@ -14,12 +14,6 @@
     justify-content: center;
 }
 
-.sidenav-trigger {
-    position: absolute;
-    z-index: 7;
-    left: 25px;
-}
-
 #profile {
     width:70px;
     height: 100px;
@@ -52,6 +46,12 @@
     height: 800px;
 }
 
+#button {
+    position: absolute;
+    z-index: 7;
+    left: 25px;
+    top: 25px;
+}
 
 
 

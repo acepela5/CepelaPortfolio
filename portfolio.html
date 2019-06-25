@@ -9,54 +9,115 @@
 
         <link rel="stylesheet" href="./assets/css/style.css">
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-         <!-- Add Icons from Materialize -->
-         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Add Icons from Materialize -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
 
     </head>
 
     <body>
+        <a id="button" href="#" data-target="slide-out"
+            class="sidenav-trigger blue-grey darken-4 btn-floating btn-large show-on-large"><i
+                class="material-icons">menu</i></a>
 
-            <ul id="slide-out" class="sidenav">
-                    <li><div class="user-view">
-                      <div class="background">
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
                         <img id="bckground" src="./assets/images/9449c551dfd05d5a343c6b901d7a5522.jpg">
-                      </div>
-                      <a href="#user"><img class="circle" id="profile" src="./assets/images/IMAG1105.jpg"></a>
-                      <a href="#name"><span class="grey-text text-darken-3 name">Adriana (Adi) Cepela</span></a>
-                      <a href="#email"><span class="grey-text text-darken-3 email">galan1451@gmail.com</span></a>
-                    </div></li>
-                    <li><a class="waves-effect" href="./index.html"><i class="material-icons">home</i>Home</a></li>
-                    <li><a class="waves-effect" href="./about.html"><i class="material-icons">account_circle</i>About</a></li>
-                    <li><a class="waves-effect" href="./portfolio.html"><i class="material-icons">palette</i>Portfolio</a></li>
-                    <li><a class="waves-effect" href="./contact.html"><i class="material-icons">mail</i>Contact</a></li>
+                    </div>
+                    <a href="#user"><img class="circle" id="profile" src="./assets/images/IMAG1105.jpg"></a>
+                    <a href="#name"><span class="grey-text text-darken-3 name">Adriana (Adi) Cepela</span></a>
+                    <a href="#email"><span class="grey-text text-darken-3 email">galan1451@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a class="waves-effect" href="./index.html"><i class="material-icons">home</i>Home</a></li>
+            <li><a class="waves-effect" href="./about.html"><i class="material-icons">account_circle</i>About</a></li>
+            <li><a class="waves-effect" href="./portfolio.html"><i class="material-icons">palette</i>Portfolio</a></li>
+            <li><a class="waves-effect" href="./contact.html"><i class="material-icons">mail</i>Contact</a></li>
 
-                    <li><div class="divider"></div></li>
-                    <li><a class="waves-effect" href="https://www.linkedin.com/in/adriana-cepela-8a8463b0/"><img id="linkdin" src="./assets/images/linkedin.jpg">LinkdIn</a></li>
-                    <li><a class="waves-effect" href="https://github.com/acepela5"><img id="github" src="./assets/images/GitHub.png">GitHub</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="waves-effect" href="https://www.linkedin.com/in/adriana-cepela-8a8463b0/"><img id="linkdin"
+                        src="./assets/images/linkedin.jpg">LinkdIn</a></li>
+            <li><a class="waves-effect" href="https://github.com/acepela5"><img id="github"
+                        src="./assets/images/GitHub.png">GitHub</a></li>
 
-                  </ul>
-              
-                  <a href="#" data-target="slide-out" class="sidenav-trigger blue-grey darken-4 btn-floating btn-large show-on-large"><i class="material-icons">menu</i></a>
+        </ul>
+
+
 
         <div class="parallax-container">
-            <div class="parallax"><img id="codePic" src="./assets/images/codes-data-programming-225250.jpg"></div>
+            <div class="parallax"><img id="codePic" src="./assets/images/bookcase-bookshelves-bookstore-351265.jpg">
+            </div>
         </div>
         <div class="section white">
             <div class="row container">
                 <h2 class="header">Portfolio</h2>
                 <p class="grey-text text-darken-3 lighten-3">
-                    <a href="https://github.com/acepela5/TrainScheduler">Repository</a>
-                    <a href="https://acepela5.github.io/TrainScheduler/">Train Scheduler</a>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (32).png">
+                            <a href="https://acepela5.github.io/TrainScheduler/">Train Scheduler</a><br>
+                            <a href="https://github.com/acepela5/TrainScheduler">Repository</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (33).png">
+                            <a href="https://acepela5.github.io/TriviaGame/">Trivia Game</a><br>
+                            <a href="https://github.com/acepela5/TriviaGame">Repository</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (34).png">
+                            <a href="https://acepela5.github.io/Unit-4-Game/">Unit-4 Game</a><br>
+                            <a href="https://github.com/acepela5/Unit-4-Game">Repository</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (35).png">
+                            <a href="https://acepela5.github.io/WordGuessGame/">Word Guess Game</a><br>
+                            <a href="https://github.com/acepela5/WordGuessGame">Repository</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (36).png">
+                            <a href="https://alexw519.github.io/Project1/">Trivia Game</a><br>
+                            <a href="https://github.com/alexw519/Project1">Repository</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <img class="materialboxed" width="200" src="./assets/images/Screenshot (37).png">
+                            <a href="https://acepela5.github.io/Giftastic/">Unit-4 Game</a><br>
+                            <a href="https://github.com/acepela5/Giftastic">Repository</a>
+                        </div>
+                    </div>
                 </p>
             </div>
         </div>
-        
+
+        <div class="parallax-container">
+            <div class="parallax"><img id="codePic" src="./assets/images/bookcase-bookshelves-bookstore-351265.jpg">
+            </div>
+        </div>
+
+        <div class="footer">&copy;Adriana R. Cepela 2019</div>
+
 
         <!-- jquery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
