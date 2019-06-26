@@ -8,6 +8,7 @@ $(document).ready(function(){
 
     $('.materialboxed').materialbox();
 
+
     var firebaseConfig = {
         apiKey: "AIzaSyA9mlENUrhKwjTIuLQ3Xcn32sXBIV2kdgA",
         authDomain: "portfolio-email-1621c.firebaseapp.com",
@@ -21,36 +22,48 @@ $(document).ready(function(){
       firebase.initializeApp(firebaseConfig);
 // creates a variable to reference the database
 var database = firebase.database();
-// Blank Values
-var name = "";
-var email = "";
-var message = "";
+
 
 // Capturing the Button Click
 $("#submitBtn").on("click", function(event) {
     event.preventDefault();
+    var name = $("#name").val().trim();
+    var email = $("#email").val().trim();
+    var message = $("#message").val().trim();
+    // user is missing input
+    // modals are not functioning YET
+if (!name || !email || !message) {
+    console.log("Text input missing");
+    $('#modal1').modal();
 
+}
+// user must enter @ in email
+// modals are not functioning YET
+else if (email.indexOf("@")===-1){
+    console.log("Missing @");
+    $('#modal2').modal();
+
+}
+else{
     // storing the data
-    name = $("#name").val().trim();
-    email = $("#email").val().trim();
-    message = $("#message").val().trim();
-
+   
+console.log("input heard")
     database.ref().set({
         name: name,
         email: email,
         message: message
+        
     });
-
-    function cleartext() {
-        $("#name.materialize-textarea").value = "";
-        $("#email.materialize-textarea").empty = "";
-        $("#message").value = "";
-        console.log("Clicked");
-    };
+}
     cleartext();  
 
 });
-
+function cleartext() {
+    $("#name.materialize-textarea").value = "";
+    $("#email.materialize-textarea").empty = "";
+    $("#message").value = "";
+    console.log("Clicked");
+};
 
     
 
