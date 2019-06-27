@@ -8,6 +8,12 @@ $(document).ready(function(){
 
     $('.materialboxed').materialbox();
 
+    function cleartext() {
+        $("#name").val("");
+        $("#email").val("");
+        $("#message").val("");
+        console.log("Clicked");
+    };
 
     var firebaseConfig = {
         apiKey: "AIzaSyA9mlENUrhKwjTIuLQ3Xcn32sXBIV2kdgA",
@@ -47,23 +53,18 @@ else if (email.indexOf("@")===-1){
 else{
     // storing the data
    
-console.log("input heard")
+    console.log("input heard")
     database.ref().set({
         name: name,
         email: email,
-        message: message
-        
+        message: message  
     });
+cleartext(); 
 }
-    cleartext();  
+     
 
 });
-function cleartext() {
-    $("#name.materialize-textarea").value = "";
-    $("#email.materialize-textarea").empty = "";
-    $("#message").value = "";
-    console.log("Clicked");
-};
+
 
     
 
