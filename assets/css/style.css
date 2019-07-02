@@ -53,6 +53,9 @@
     top: 25px;
 }
 
-
+#modal1, #modal2 {
+    position: absolute;
+    z-index: 9;
+}
 
 
