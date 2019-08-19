@@ -12,7 +12,7 @@ Welcome to my portfolio page! Travel through the pages to see examples of my wor
 - Images from PNGTree.com and Pexel.com
 ## Screenshot
 
-![ ](/Screenshot(38).png)
+![ ](./Screenshot(38).png)
 
 ## Author
 Adi Cepela - https://github.com/acepela5
