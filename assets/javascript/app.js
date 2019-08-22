@@ -8,6 +8,8 @@ $(document).ready(function(){
 
     $('.materialboxed').materialbox();
 
+    $(".modal").modal();
+
     function cleartext() {
         $("#name").val("");
         $("#email").val("");
@@ -36,18 +38,21 @@ $("#submitBtn").on("click", function(event) {
     var name = $("#name").val().trim();
     var email = $("#email").val().trim();
     var message = $("#message").val().trim();
+    // $('#modal1').modal("open");
+
     // user is missing input
     // modals are not functioning YET
 if (!name || !email || !message) {
     console.log("Text input missing");
-    $('#modal1').modal();
+   $('#modal1').modal("open");
+
 
 }
 // user must enter @ in email
 // modals are not functioning YET
 else if (email.indexOf("@")===-1){
     console.log("Missing @");
-    $('#modal2').modal();
+    $('#modal2').modal("open");
 
 }
 else{
