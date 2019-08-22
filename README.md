@@ -10,6 +10,7 @@ Welcome to my portfolio page! Travel through the pages to see examples of my wor
 - JavaScript
 - Fireside
 - Images from PNGTree.com and Pexel.com
+- Icons found at Icon-Library.net
 ## Screenshot
 
 ![ ](./Screenshot(38).png)
