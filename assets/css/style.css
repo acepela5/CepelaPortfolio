@@ -49,6 +49,10 @@
     height: 800px;
 }
 
+.materialboxed {
+    margin-bottom: 10px;
+}
+
 #codePic {
     width: 25px;
     height: 800px;
@@ -99,3 +103,12 @@
     height: 100px;
     width: 200px;
 }
+
+@media screen and (max-width: 600px) {
+    .iconImg {
+        left: 0px;
+    }
+    .iconImg1{
+        left: 0px;
+    }
+  }
